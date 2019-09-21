@@ -1,0 +1,10 @@
+@mixin for-all-small-devices {
+    @media only screen and (min-width:200px) and (max-width:1050px){
+        @content;
+    }
+}
+@mixin for-sidebar {
+    @media only screen and (min-width:200px) and (max-width:991.97px){
+        @content;
+    }
+}
